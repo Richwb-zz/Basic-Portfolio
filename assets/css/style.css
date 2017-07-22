@@ -11,7 +11,28 @@ body {
 }
 
 header{
+	background-color: #ffffff;
+	border-bottom: solid 2px #cccccc;
+	height: 100px;
+}
 
+.headerContent{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.name{
+	background-color: #4aaaa5;
+	float: left;
+}
+
+nav{
+	float: right;
+}
+
+nav a{
+	padding-left: 50px;
+	text-decoration: none;
 }
 
 main{
@@ -41,13 +62,12 @@ hr{
 	color: #4aaaa5;
 }
 
-img{
+article img{
 	width:200px;
 	height: 200px;
 	display: block;
 	float: left;
-	margin-right: 20px;
-	margin-bottom: 10px;
+	margin: 20px 20px 5px 35px;
 }
 
 aside{
