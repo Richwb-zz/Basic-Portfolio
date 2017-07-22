@@ -14,25 +14,41 @@ header{
 	background-color: #ffffff;
 	border-bottom: solid 2px #cccccc;
 	height: 100px;
+	position: relative;
 }
 
 .headerContent{
-	width: 960px;
-	margin: 0 auto;
+	position: absolute;
+	display: flex;
+  justify-content: space-between;
+  vertical-align: bottom;
+  width: 960px;
+  bottom: 0px;
+	left: 0;
+	right: 0;
+	margin: auto;
 }
 
 .name{
 	background-color: #4aaaa5;
-	float: left;
+}
+
+.name, h1{
+	margin-left: 30px;
 }
 
 nav{
-	float: right;
+	width: 270px;	
 }
 
+
 nav a{
-	padding-left: 50px;
+	float: left;
+	text-align: center;
 	text-decoration: none;
+	width: 33%;
+	margin: 0;
+	padding: 0;
 }
 
 main{
