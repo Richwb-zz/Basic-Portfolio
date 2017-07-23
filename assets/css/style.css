@@ -103,8 +103,13 @@ fieldset{
 	border:0;
 }
 
-legend{
-	visibility: hide;
+.contact input:not([type="submit"]){
+	width: 100%
+}
+
+.contact textarea{
+	width: 100%;
+	height: 150px;
 }
 
 aside{
