@@ -8,19 +8,23 @@ body {
 	padding: 0px;
 	margin: 0 auto;
 	color: #777777;
+	height: 100%;
+	display: flex;
+  flex-direction: column;
 
 }
 
 header{
 	background-color: #ffffff;
 	border-bottom: solid 2px #cccccc;
-	height: 100px;
+	min-height: 100px;	
 	position: relative;
 }
 
 .headerContent{
 	position: absolute;
 	display: flex;
+	display: -webkit-flex; /* Safari */
   justify-content: space-between;
   vertical-align: bottom;
   width: 960px;
@@ -38,8 +42,7 @@ header{
 }
 
 nav{
-	width: 270px;	
-	
+	width: 270px;
 }
 
 .nav-button{
@@ -59,6 +62,7 @@ nav a{
 main{
 	width: 960px;
 	margin: 0 auto;
+  flex: 1 0 auto;
 }
 
 article{
@@ -67,8 +71,6 @@ article{
 	width: 650px;
 	background-color: #ffffff;
 	border-color: #dddddd;
-	display: flex;
-  flex-direction: column;
 }
 
 section{
@@ -107,7 +109,6 @@ legend{
 
 aside{
 	display: inline-block;
-	height: 100%;
 	width:270px;
 	padding: 0px 0px 25px 0px;
 	margin-left: 40px;
@@ -124,7 +125,7 @@ aside img{
 
 footer{
 	clear:left;
-	height: 50px;
+	min-height: 50px;
 	background-color: #666666;
 	border-top: solid 10px #4aaaa5;
 	font-weight: bold;
