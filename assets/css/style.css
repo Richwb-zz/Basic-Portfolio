@@ -8,6 +8,7 @@ body {
 	padding: 0px;
 	margin: 0 auto;
 	color: #777777;
+
 }
 
 header{
@@ -66,6 +67,8 @@ article{
 	width: 650px;
 	background-color: #ffffff;
 	border-color: #dddddd;
+	display: flex;
+  flex-direction: column;
 }
 
 section{
@@ -92,6 +95,14 @@ article img{
 	display: block;
 	float: left;
 	margin: 20px 20px 5px 35px;
+}
+
+fieldset{
+	border:0;
+}
+
+legend{
+	visibility: hide;
 }
 
 aside{
