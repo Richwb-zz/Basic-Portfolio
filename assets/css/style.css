@@ -36,26 +36,32 @@ header{
 }
 
 .name{
+	float: left;
 	background-color: #4aaaa5;
 	padding: 20px;
 }
 
 nav{
 	width: 270px;
-}
-
-.nav-button{
-	vertical-align: center;
-	padding: 20px 0px;
+	float: right;
 }
 
 nav a{
 	float: left;
+	width: 32%;
+	margin: 0;
+	padding: 20px 0px;
+	vertical-align: center;
 	text-align: center;
 	text-decoration: none;
-	width: 33%;
-	margin: 0;
-	padding: 0;
+	color: #777777;
+	border-right: solid #777777 1px;
+	line-height: 5px;
+}
+
+
+nav a:last-of-type{
+	border-right: none;
 }
 
 main{
@@ -70,11 +76,12 @@ article{
 	margin-top: 50px;
 	width: 650px;
 	background-color: #ffffff;
-	border-color: #dddddd;
+	border: solid 1px #dddddd;
 }
 
 h1,h2{
 	font-family: "Georiga", "Times", "Times New Roman","serif";
+	color: #4aaaa5;
 }
 
 h1{
@@ -87,11 +94,10 @@ hr{
 }
 
 aside{
-	display: inline-block;
+	float: right;
 	width:270px;
 	padding: 0px 0px 25px 0px;
 	margin-top: 50px;
-	margin-left: 40px;
 	background-color: #ffffff;
 	text-align: center;
 }	
@@ -99,6 +105,7 @@ aside{
 aside img{
 	height: 50px;
 	width: 50px;
+	padding: 0% 5%;
 }
 
 footer{
