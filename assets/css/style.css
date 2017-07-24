@@ -58,6 +58,10 @@
 		border-right: solid #777777 1px;
 	}
 
+	nav a:hover{
+		background-color: #777777;
+		color: #ffffff;
+	}
 
 	nav a:last-of-type{
 		border-right: none;
@@ -159,6 +163,10 @@
 		font-size: 16px;
 		font-weight: bold;
 		padding: 5px 20px;
+	}
+
+	.contact input[type="submit"]:hover{
+		cursor: pointer;
 	}
 
 /* Portfolio Page */
